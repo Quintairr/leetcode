@@ -1,0 +1,28 @@
+# VS Code
+.vscode/
+
+# Сборка
+build/
+out/
+bin/
+obj/
+*.o
+*.obj
+*.exe
+*.out
+*.so
+*.dll
+*.a
+*.lib
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Отладка / прочее
+*.log
+*.pdb
+*.ilk
+.DS_Store

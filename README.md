@@ -6,3 +6,4 @@ romanToInt: https://leetcode.com/problems/roman-to-integer/description/
 twoSum: https://leetcode.com/problems/two-sum/description  
 validPalindrome: https://leetcode.com/problems/valid-palindrome/description/  
 validAnagram: https://leetcode.com/problems/valid-anagram/description/  
+containsDublicate: https://leetcode.com/problems/contains-duplicate/description/  

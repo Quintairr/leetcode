@@ -9,10 +9,10 @@ bool f(const string &s){
     int r = static_cast<int>(s.size())-1;
 
     while (l < r){
-        while(!isalnum(s[l])) {
+        while(!isalnum(s[l]) && l<r) {
             ++l;
         }
-        while (!isalnum(s[r])) {
+        while (!isalnum(s[r]) && l<r) {
             --r;
         }
 
@@ -28,7 +28,7 @@ bool f(const string &s){
 
 
 int main() {
-    const string s = "A man, a plan, a canal: Panama";
+    const string s = "    ???";
     bool res = f(s);
     if (res){
         cout << "true" << "\n";
